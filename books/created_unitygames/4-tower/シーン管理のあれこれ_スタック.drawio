@@ -1,0 +1,199 @@
+<mxfile host="65bd71144e" scale="1" border="12">
+    <diagram id="EAFZWFfFIpqhN-iUi5TH" name="Template">
+        <mxGraphModel dx="1386" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="29" value="現在のシーン" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="600" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="シーンのスタック" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="720" width="120" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="シーンB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="630" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="シーンA" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="780" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="U5sfSvYbsYYVJ112nqjv-32" value="現在のシーン" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="U5sfSvYbsYYVJ112nqjv-33" value="シーンのスタック" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="160" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="U5sfSvYbsYYVJ112nqjv-34" value="シーンA" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="70" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="U5sfSvYbsYYVJ112nqjv-35" value="" style="shape=flexArrow;endArrow=classic;html=1;verticalAlign=top;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="160" as="sourcePoint"/>
+                        <mxPoint x="280" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="U5sfSvYbsYYVJ112nqjv-36" value="&lt;div&gt;Load&lt;/div&gt;シーンB" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.38;strokeColor=default;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="80" width="80" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="U5sfSvYbsYYVJ112nqjv-37" value="現在のシーン" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="40" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="U5sfSvYbsYYVJ112nqjv-38" value="シーンのスタック" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="160" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="U5sfSvYbsYYVJ112nqjv-39" value="シーンB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="70" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-38" value="" style="shape=flexArrow;endArrow=classic;html=1;verticalAlign=top;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="720" as="sourcePoint"/>
+                        <mxPoint x="560" y="720" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-39" value="&lt;div&gt;Pop&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.38;strokeColor=default;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="640" width="80" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-40" value="現在のシーン" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="600" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-41" value="シーンのスタック" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="720" width="120" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-43" value="シーンA" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="630" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-49" value="現在のシーン" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="960" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-50" value="シーンのスタック" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1080" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-51" value="シーンB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="990" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-52" value="シーンA" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="1140" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-53" value="" style="shape=flexArrow;endArrow=classic;html=1;verticalAlign=top;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="1080" as="sourcePoint"/>
+                        <mxPoint x="280" y="1080" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-54" value="Replace&lt;div&gt;シーンC&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.38;strokeColor=default;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="1000" width="80" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-55" value="現在のシーン" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="960" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-56" value="シーンのスタック" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="1080" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-57" value="シーンA" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="1140" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYA-KxEvBO22p-Ky8FFd-58" value="シーンC" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="990" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="現在のシーン" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="320" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="シーンのスタック" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;verticalAlign=top;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="440" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="シーンA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="350" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="shape=flexArrow;endArrow=classic;html=1;verticalAlign=top;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="440" as="sourcePoint"/>
+                        <mxPoint x="280" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="&lt;div&gt;Push&lt;/div&gt;シーンB" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.38;strokeColor=default;rounded=1;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="360" width="80" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="現在のシーン" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="320" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="シーンのスタック" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;verticalAlign=top;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="440" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="シーンB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="350" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="シーンA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="500" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="shape=flexArrow;endArrow=classic;html=1;verticalAlign=top;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="440" as="sourcePoint"/>
+                        <mxPoint x="560" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="Load&lt;div&gt;シーンC&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.38;strokeColor=default;rounded=1;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="360" width="80" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="現在のシーン" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="320" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="シーンのスタック" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;verticalAlign=top;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="440" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="シーンC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="350" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="現在のシーン" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="600" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="シーンのスタック" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;verticalAlign=top;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="720" width="120" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="シーンA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="630" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="shape=flexArrow;endArrow=classic;html=1;verticalAlign=top;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="720" as="sourcePoint"/>
+                        <mxPoint x="280" y="720" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="&lt;div&gt;Push&lt;/div&gt;&lt;div&gt;シーンB&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.38;strokeColor=default;rounded=1;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="640" width="80" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="シーンX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="780" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="シーンY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="820" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="シーンX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="820" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="シーンY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="860" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="シーンX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="780" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="シーンY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="820" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="※Load時はスタックをクリアします" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="520" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="※一般的なシーン遷移と同じ動きをします。" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="80" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="※Push時は遷移前のシーンをスタックに追加します。" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="550" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="※Pop時は遷移前のシーンを指定せず、スタックから取得します。" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="750" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="※Replace時は現在のシーンのみを更新します。" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="995" width="220" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
