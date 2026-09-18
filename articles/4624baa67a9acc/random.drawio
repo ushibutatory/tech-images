@@ -1,37 +1,37 @@
 <mxfile host="65bd71144e" scale="1" border="12">
     <diagram id="Y81WlQAQ7e1rPt3i6thL" name="Page-1">
-        <mxGraphModel dx="1002" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="498" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Domain" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="2" value="Domain" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="240" height="360" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Infrastructure" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="3" value="Infrastructure" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="320" y="40" width="240" height="360" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;IRandom&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&lt;br&gt;+ Next(min, max) : int&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="4" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;IRandom&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&lt;br&gt;+ Next(min, max) : int&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="80" y="80" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;IRandomFactory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Create() : IRandom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="5" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;IRandomFactory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Get() : IRandom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="80" y="200" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="乱数を利用する&lt;br&gt;ビジネスロジック" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="6" value="乱数を利用する&lt;br&gt;ビジネスロジック" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="80" y="320" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;div&gt;SeededRandom&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Next(min, max) : int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="7" value="&lt;div&gt;SeededRandom&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Next(min, max) : int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="360" y="80" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="&lt;div&gt;SeededRandomFactory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Create() : IRandom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="8" value="&lt;div&gt;SeededRandomFactory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Get() : IRandom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="360" y="200" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="" style="endArrow=block;html=1;endFill=0;dashed=1;fontFamily=Verdana;" edge="1" parent="1" source="7" target="4">
+                <mxCell id="13" value="" style="endArrow=block;html=1;endFill=0;dashed=1;fontFamily=Verdana;" parent="1" source="7" target="4" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="630" y="150" as="sourcePoint"/>
                         <mxPoint x="680" y="100" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="" style="endArrow=block;html=1;endFill=0;dashed=1;fontFamily=Verdana;" edge="1" parent="1" source="8" target="5">
+                <mxCell id="14" value="" style="endArrow=block;html=1;endFill=0;dashed=1;fontFamily=Verdana;" parent="1" source="8" target="5" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="370" y="130" as="sourcePoint"/>
                         <mxPoint x="250" y="130" as="targetPoint"/>
@@ -41,41 +41,41 @@
         </mxGraphModel>
     </diagram>
     <diagram id="-KLfhMp53BeVIk37EEgD" name="Page-2">
-        <mxGraphModel dx="1002" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="498" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="iaYQUAGIJuxKbbw6ZGVx-1" value="Domain.Tests" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="iaYQUAGIJuxKbbw6ZGVx-1" value="Domain.Tests" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="320" y="40" width="240" height="360" as="geometry"/>
                 </mxCell>
-                <mxCell id="iaYQUAGIJuxKbbw6ZGVx-2" value="&lt;div&gt;テストケース&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="iaYQUAGIJuxKbbw6ZGVx-2" value="&lt;div&gt;テストケース&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="360" y="320" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="iaYQUAGIJuxKbbw6ZGVx-3" value="&lt;div&gt;StubRandom&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Next(min, max) : int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="iaYQUAGIJuxKbbw6ZGVx-3" value="&lt;div&gt;StubRandom&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Next(min, max) : int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="360" y="80" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="iaYQUAGIJuxKbbw6ZGVx-4" value="&lt;div&gt;StubRandomFactory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Create() : IRandom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="iaYQUAGIJuxKbbw6ZGVx-4" value="&lt;div&gt;StubRandomFactory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Get() : IRandom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="365" y="200" width="155" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="T3SXqkEZNg0XXDKzRHl0-1" value="Domain" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="T3SXqkEZNg0XXDKzRHl0-1" value="Domain" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="240" height="360" as="geometry"/>
                 </mxCell>
-                <mxCell id="T3SXqkEZNg0XXDKzRHl0-3" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;IRandom&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&lt;br&gt;+ Next(min, max) : int&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="T3SXqkEZNg0XXDKzRHl0-3" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;IRandom&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&lt;br&gt;+ Next(min, max) : int&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="80" y="80" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="T3SXqkEZNg0XXDKzRHl0-4" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;IRandomFactory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Create() : IRandom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="T3SXqkEZNg0XXDKzRHl0-4" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;IRandomFactory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Get() : IRandom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="80" y="200" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="T3SXqkEZNg0XXDKzRHl0-5" value="乱数を利用する&lt;br&gt;ビジネスロジック" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="T3SXqkEZNg0XXDKzRHl0-5" value="乱数を利用する&lt;br&gt;ビジネスロジック" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="80" y="320" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="T3SXqkEZNg0XXDKzRHl0-8" value="" style="endArrow=block;html=1;endFill=0;dashed=1;fontFamily=Verdana;" edge="1" parent="1" source="iaYQUAGIJuxKbbw6ZGVx-3" target="T3SXqkEZNg0XXDKzRHl0-3">
+                <mxCell id="T3SXqkEZNg0XXDKzRHl0-8" value="" style="endArrow=block;html=1;endFill=0;dashed=1;fontFamily=Verdana;" parent="1" source="iaYQUAGIJuxKbbw6ZGVx-3" target="T3SXqkEZNg0XXDKzRHl0-3" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="360" y="120" as="sourcePoint"/>
                         <mxPoint x="680" y="100" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="T3SXqkEZNg0XXDKzRHl0-9" value="" style="endArrow=block;html=1;endFill=0;dashed=1;fontFamily=Verdana;" edge="1" parent="1" source="iaYQUAGIJuxKbbw6ZGVx-4" target="T3SXqkEZNg0XXDKzRHl0-4">
+                <mxCell id="T3SXqkEZNg0XXDKzRHl0-9" value="" style="endArrow=block;html=1;endFill=0;dashed=1;fontFamily=Verdana;" parent="1" source="iaYQUAGIJuxKbbw6ZGVx-4" target="T3SXqkEZNg0XXDKzRHl0-4" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="360" y="240" as="sourcePoint"/>
                         <mxPoint x="250" y="130" as="targetPoint"/>
