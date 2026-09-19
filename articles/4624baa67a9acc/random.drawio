@@ -1,6 +1,26 @@
 <mxfile host="65bd71144e" scale="1" border="12">
+    <diagram name="Page-0" id="z4gzECfuiKPyVeyjJRuu">
+        <mxGraphModel dx="1242" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="pjgiUWeLFtPeir6VTdbW-0"/>
+                <mxCell id="pjgiUWeLFtPeir6VTdbW-1" parent="pjgiUWeLFtPeir6VTdbW-0"/>
+                <mxCell id="pjgiUWeLFtPeir6VTdbW-2" value="Domain" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fontFamily=Verdana;" vertex="1" parent="pjgiUWeLFtPeir6VTdbW-1">
+                    <mxGeometry x="40" y="40" width="240" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="pjgiUWeLFtPeir6VTdbW-4" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;IRandom&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&lt;br&gt;+ Next(min, max) : int&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="pjgiUWeLFtPeir6VTdbW-1">
+                    <mxGeometry x="80" y="80" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pjgiUWeLFtPeir6VTdbW-5" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;IRandomFactory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Get() : IRandom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="pjgiUWeLFtPeir6VTdbW-1">
+                    <mxGeometry x="80" y="200" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pjgiUWeLFtPeir6VTdbW-6" value="乱数を利用する&lt;br&gt;ビジネスロジック" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="pjgiUWeLFtPeir6VTdbW-1">
+                    <mxGeometry x="80" y="320" width="160" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
     <diagram id="Y81WlQAQ7e1rPt3i6thL" name="Page-1">
-        <mxGraphModel dx="619" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1002" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
