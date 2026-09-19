@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" scale="1" border="12">
     <diagram id="Y81WlQAQ7e1rPt3i6thL" name="Page-1">
-        <mxGraphModel dx="498" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="619" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -22,7 +22,7 @@
                 <mxCell id="7" value="&lt;div&gt;SeededRandom&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Next(min, max) : int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="360" y="80" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="&lt;div&gt;SeededRandomFactory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Get() : IRandom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
+                <mxCell id="8" value="&lt;div&gt;RandomFactory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Get() : IRandom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="360" y="200" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="" style="endArrow=block;html=1;endFill=0;dashed=1;fontFamily=Verdana;" parent="1" source="7" target="4" edge="1">
