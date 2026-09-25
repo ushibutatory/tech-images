@@ -4,23 +4,29 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="PersistentScene" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fillColor=none;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="2" value="PersistentScene" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fillColor=none;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="200" height="360" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="FooScene" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fillColor=none;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="3" value="FooScene" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fillColor=none;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="280" y="40" width="200" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="BarScene" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fillColor=none;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="4" value="BarScene" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;fillColor=none;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="280" y="240" width="200" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="SceneNavigator&lt;br&gt;: MonoBehaviour" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="80" width="120" height="60" as="geometry"/>
+                <mxCell id="5" value="SceneNavigator&lt;br&gt;: MonoBehaviour" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="160" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="FooSceneDirector&lt;br&gt;: MonoBehaviour" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
-                    <mxGeometry x="320" y="80" width="120" height="60" as="geometry"/>
+                <mxCell id="6" value="FooSceneDirector&lt;br&gt;: MonoBehaviour" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="100" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="BarSceneDirector&lt;br&gt;: MonoBehaviour" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                <mxCell id="7" value="BarSceneDirector&lt;br&gt;: MonoBehaviour" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="320" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="シーンのロード&lt;br&gt;・アンロード" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;size=20;position=0.75;base=10;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="90" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="自シーン内の初期化、&lt;br&gt;他シーンへの遷移指示" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;size=20;position=0.75;base=10;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;position2=0.07;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="30" width="150" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
